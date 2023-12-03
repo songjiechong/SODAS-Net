@@ -1,5 +1,14 @@
-# SODAS-Net
-SODAS-Net: Side-infOrmation-aided Deep Adaptive Shrinkage Network for Compressive Sensing
+# SODAS-Net: Side-infOrmation-aided Deep Adaptive Shrinkage Network for Compressive Sensing (IEEE TIM, 2023)
+This repository is for SODAS-Net introduced in the following paper：
+
+[Jiechong Song](https://scholar.google.com/citations?hl=en&user=EBOtupAAAAAJ), [Jian Zhang](http://jianzhang.tech/), "SODAS-Net: Side-infOrmation-aided Deep Adaptive Shrinkage Network for Compressive Sensing", IEEE Transactions on Instrumentation and Measurement (TIM), 2023. [PDF](https://ieeexplore.ieee.org/document/10217074)
+
+## :art: Abstract
+
+As a kind of network structure increasingly studied in compressive sensing (CS), deep unfolding networks (DUNs), which unroll the iterative reconstruction procedure as deep neural networks (DNNs) for end-to-end training, have high interpretability and remarkable performance. Every phase of the DUN corresponds to one iteration. The input and output of each phase in most DUNs are inherently images, which heavily restricts information transmission. Besides, existing DUNs unfolded by ℓ1 -regularized optimization usually utilize fixed thresholds for soft-shrinkage operation, which lacks adaptability. To solve these issues, a novel side-information-aided deep adaptive shrinkage network (SODAS-Net) is designed for CS. Utilizing the side information (SI) allows SODAS-Net to send large volumes of information between adjacent phases, substantially augmenting the network representation capacity and optimizing network performance. Furthermore, an effective adaptive soft-shrinkage strategy is developed, which enables our SODAS-Net to solve ℓ1 -regularized proximal mapping with content-aware thresholds. The results from extensive experiments on various testing datasets demonstrate that SODAS-Net achieves superior performance.
+
+## :fire: Network Architecture
+
 
 ## 👀 Datasets
 - Train data: [train400](https://drive.google.com/file/d/15FatS3wYupcoJq44jxwkm6Kdr0rATPd0/view?usp=sharing)
