@@ -21,5 +21,26 @@ As a kind of network structure increasingly studied in compressive sensing (CS),
 - Train data: [train400](https://drive.google.com/file/d/15FatS3wYupcoJq44jxwkm6Kdr0rATPd0/view?usp=sharing)
 - Test data: Set11, [CBSD68](https://drive.google.com/file/d/1Q_tcV0d8bPU5g0lNhVSZXLFw0whFl8Nt/view?usp=sharing), [Urban100](https://drive.google.com/file/d/1cmYjEJlR2S6cqrPq8oQm3tF9lO2sU0gV/view?usp=sharing)
 
+## :computer: Command
+### Test
+`python TEST_CS_SODAS.py --cs_ratio 10/25/30/40/50 --test_name Set11/CBSD68/Urban100`
+
+## 📑 Citation
+If you find our work helpful in your resarch or work, please cite the following paper.
+
+```
+@article{song2023sodas,
+  title={SODAS-Net: Side-infOrmation-aided Deep Adaptive Shrinkage Network for Compressive Sensing},
+  author={Song, Jiechong and Zhang, Jian},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  year={2023},
+  publisher={IEEE}
+}
+```
+
 ## :e-mail: Contact
 If you have any question, please email `songjiechong@pku.edu.cn`.
+
+## :hugs: Acknowledgements
+This code is built on [ISTA-Net-PyTorch](https://github.com/jianzhangcs/ISTA-Net-PyTorch). We thank the authors for sharing their codes.
+
