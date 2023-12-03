@@ -15,7 +15,7 @@ As a kind of network structure increasingly studied in compressive sensing (CS),
 - Pytorch == 1.8.0
 
 ## 🚩 Results
-
+![Network](/Figs/result.png)
 
 ## 👀 Datasets
 - Train data: [train400](https://drive.google.com/file/d/15FatS3wYupcoJq44jxwkm6Kdr0rATPd0/view?usp=sharing)
